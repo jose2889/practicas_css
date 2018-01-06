@@ -1,21 +1,34 @@
-p{
-    color: rgb(7, 23, 97);
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja-1{
+    border: 2px #000 solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    background: yellow;
+    float: left;
 }
 
-.azul{
-    color: chocolate;
-    font-size: 20px;
-    /* background: blue; */
-}
-
-.fondo{
-    /* background: green; */
-}
-
-.divisor{
-    background: red;
-}
-
-footer{
+.caja-2{
+    border: 2px #000 solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
     background: blue;
+    float: left;
+}
+
+.caja-3{
+    border: 2px #000 solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    background: red;
+    float: right;
+}
+
+.titulo{
+    clear: both;
 }
