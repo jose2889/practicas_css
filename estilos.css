@@ -1,40 +1,30 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-   
-}
-.menu{
-    text-align: center;
-}
-.nav{
-    width: 70%;
-    float: left;
-    background: saddlebrown;
-}
-
-.logo{
-    background: yellow;
-    overflow: hidden;
-    float: left;
-    width: 30%;
-}
-.columnas{
-    background: blue;
-    overflow: hidden;
-    width: 90%;
-    margin: 0 auto;
-}
-.columnax3{
-    background: green;
+.verde{
+    width: 200px;
     height: 100px;
-    width: 25%;
-    float: left;
-    padding: 10px;
+    background-color: green;
+    color: aliceblue;
     text-align: center;
-    border: 2px #000000 solid;
-
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+    
 }
-footer{
-    background: red;
 
+.rojo{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.azul{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
 }
