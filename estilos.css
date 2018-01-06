@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0;
     box-sizing: border-box;
-}
+} */
 nav{
     background: chocolate;
     overflow: hidden;    
@@ -60,4 +60,18 @@ nav{
     margin: 0 auto;
     height: 2000px;
     background: #888;
+    font-family: 'Joti One', cursive;
+    
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+@font-face{
+    font-family: nueva;
+    src: url(fuentes/Quicksand-Light.ttf)
+}
+
+p{
+    font-family: nueva;
 }
