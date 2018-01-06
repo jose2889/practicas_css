@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+
+}
+.titulo{
+    background: #FF750D;
+    margin-top: 10PX;
+    width: 200px;
+    margin-left: 20PX;
+}
+
+.parrafo{
+    background: red;
+    width: 200px;
+    padding: 20PX 50PX;
+    margin: 10PX 20PX 20PX 50PX;
+}
+
+footer{
+    background: blueviolet;
+}
