@@ -1,77 +1,37 @@
-/* *{
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-} */
-nav{
+}
+.contenedor{
+    width: 80%;
+    height: 500px;
     background: chocolate;
-    overflow: hidden;    
-    text-align: center;
-    height: 50px;  
-    position: fixed;
-    width: 100%;
-}
-
-.logo{
-    float: left;
-    width: 30%;
-    background: #999;
-    height: 100%;
-}
-
-.menu{
-    float: right;
-    width: 70%;
-    background: #555;
-    height: 100%;
-}
-
-.menu ul li{
-    display: inline;
-}
-
-.menu a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-right: 20px;
-    background: #000;
-    padding: 100% 10px;
-}
-
-.logo a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-.menu a:hover{
-    background: chocolate;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
    
+  
+
+}
+body{
+    background: #3a3837
 }
 
-.menu ul{
-    padding-top: 10px;
-}
-
-.slider{
-    width: 90%;
-    margin: 0 auto;
-    height: 2000px;
-    background: #888;
-    font-family: 'Joti One', cursive;
+.hijo{
+    background: #00b285;
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    flex: 1 1 auto;
     
 }
-h1{
-    font-family: 'Roboto Mono', monospace;
-}
-
-@font-face{
-    font-family: nueva;
-    src: url(fuentes/Quicksand-Light.ttf)
-}
-
-p{
-    font-family: nueva;
+.otro{ 
+    align-self: stretch;
+    height: auto;
 }
