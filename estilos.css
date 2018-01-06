@@ -1,28 +1,63 @@
-.verde{
-    width: 200px;
-    height: 100px;
-    background-color: green;
-    color: aliceblue;
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: chocolate;
+    overflow: hidden;    
     text-align: center;
+    height: 50px;  
     position: fixed;
-    top: 100px;
-    
-  
-    
+    width: 100%;
 }
 
-.rojo{
-    width: 200px;
-    height: 600px;
-    background-color: red;
-    color: aliceblue;
-    text-align: center;
+.logo{
+    float: left;
+    width: 30%;
+    background: #999;
+    height: 100%;
 }
 
-.azul{
-    width: 200px;
-    height: 700px;
-    background-color: blue;
-    color: aliceblue;
-    text-align: center;
+.menu{
+    float: right;
+    width: 70%;
+    background: #555;
+    height: 100%;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    background: #000;
+    padding: 100% 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    background: chocolate;
+   
+}
+
+.menu ul{
+    padding-top: 10px;
+}
+
+.slider{
+    width: 90%;
+    margin: 0 auto;
+    height: 2000px;
+    background: #888;
 }
